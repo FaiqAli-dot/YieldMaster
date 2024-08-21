@@ -20,9 +20,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"number\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SimpleTest.sol\":\"SimpleTest\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SimpleTest.sol\":{\"keccak256\":\"0xbaaecf28d2908598c3bbbe688ddb4cb05763ec0f5616da53df4eac36c661eb44\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://28358ed8fa8cd2b1728e581f56675062380bcf1d811656bbb3deed897173a95a\",\"dweb:/ipfs/QmVtHn3cuQFrnqERbVK88v1Y56qcHHjXmuAh43FqsD7xNd\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50602a60008190555060b3806100276000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638381f58a14602d575b600080fd5b60336047565b604051603e9190605a565b60405180910390f35b60005481565b6054816073565b82525050565b6000602082019050606d6000830184604d565b92915050565b600081905091905056fea264697066735822122070e090571f602c6a9b33d65e1ebc22e66e8bed0bb3c0c543dc55b2d79f1f5a5f64736f6c63430008000033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638381f58a14602d575b600080fd5b60336047565b604051603e9190605a565b60405180910390f35b60005481565b6054816073565b82525050565b6000602082019050606d6000830184604d565b92915050565b600081905091905056fea264697066735822122070e090571f602c6a9b33d65e1ebc22e66e8bed0bb3c0c543dc55b2d79f1f5a5f64736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"number\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SimpleContract.sol\":\"SimpleTest\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SimpleContract.sol\":{\"keccak256\":\"0xbaaecf28d2908598c3bbbe688ddb4cb05763ec0f5616da53df4eac36c661eb44\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://28358ed8fa8cd2b1728e581f56675062380bcf1d811656bbb3deed897173a95a\",\"dweb:/ipfs/QmVtHn3cuQFrnqERbVK88v1Y56qcHHjXmuAh43FqsD7xNd\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50602a60008190555060b3806100276000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638381f58a14602d575b600080fd5b60336047565b604051603e9190605a565b60405180910390f35b60005481565b6054816073565b82525050565b6000602082019050606d6000830184604d565b92915050565b600081905091905056fea2646970667358221220a39043934f713412f78585c39510fb57d2214cb5f27942efdf712b81e788a08964736f6c63430008000033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638381f58a14602d575b600080fd5b60336047565b604051603e9190605a565b60405180910390f35b60005481565b6054816073565b82525050565b6000602082019050606d6000830184604d565b92915050565b600081905091905056fea2646970667358221220a39043934f713412f78585c39510fb57d2214cb5f27942efdf712b81e788a08964736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -256,9 +256,9 @@
   "sourceMap": "60:104:1:-:0;;;117:44;;;;;;;;;;151:2;142:6;:11;;;;60:104;;;;;;",
   "deployedSourceMap": "60:104:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;87:21;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;;;;:::o;7:118:3:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:77::-;;425:5;414:16;;404:32;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract SimpleTest {\r\n    uint256 public number;\r\n\r\n    constructor() {\r\n        number = 42;\r\n    }\r\n}\r\n",
-  "sourcePath": "D:\\YieldMaster\\yieldmaster\\yieldmaster-smart-contracts\\contracts\\SimpleTest.sol",
+  "sourcePath": "D:\\YieldMaster\\yieldmaster\\yieldmaster-smart-contracts\\contracts\\SimpleContract.sol",
   "ast": {
-    "absolutePath": "project:/contracts/SimpleTest.sol",
+    "absolutePath": "project:/contracts/SimpleContract.sol",
     "exportedSymbols": {
       "SimpleTest": [
         71
@@ -418,7 +418,7 @@
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-08-14T11:22:37.657Z",
+  "updatedAt": "2024-08-21T22:40:52.504Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

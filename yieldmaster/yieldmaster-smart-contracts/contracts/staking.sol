@@ -23,6 +23,10 @@ contract Staking {
         return (balances[staker] * stakedTime * rewardRate) / 1000000;
     }
 
+    function getBalance(address user) public view returns (uint256) {
+        return balances[user];
+    }
+
     function withdraw() public {
         uint256 balance = balances[msg.sender];
         require(balance > 0, "Insufficient balance");
